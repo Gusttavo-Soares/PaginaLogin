@@ -1,0 +1,150 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #243e8b57;
+    border-radius: 2rem;
+    margin: 0 4rem;
+    height: 5rem;
+}
+#login > #divs, hr{
+    display: flex;
+}
+#divs{
+    gap: 4rem;
+}
+.img-login{
+    height: 2rem;
+}
+.login{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    gap: 1rem;
+    height: 3rem;
+}
+#text-white{
+    color: white;
+}
+#selection{
+    background-color:  #243e8b2f ;
+    margin: .7rem;
+    border-radius: 1rem;
+    padding: 0 2rem;
+}
+#qr{
+    padding-top: 2.3rem;
+    padding-right:1.5rem ;
+}
+#login hr{
+    margin-right: 15rem;
+    width: 7rem;
+    height: .3rem;
+    border: none;
+    background-color: var(--fundo-claro);
+}
+
+/*==================================================================================*/
+form{
+    margin: 4rem;
+}
+.sem-borda{
+    border: none;
+}
+.sem-borda input{
+    background-color: #243e8b2f;
+    border: none; 
+    padding: 1.5rem;
+    border-radius: 1rem;
+    width: 100%;
+}
+.sem-borda input::placeholder{
+    color:  #243e8bbc ;
+    font-size: 1rem;
+}
+#img{
+    display: flex;
+    margin-top: 2.5rem;
+    gap: 1rem;
+}
+#img div{
+    width: 5.2rem;
+    border-radius: .6rem;
+}
+#img  div img{
+    height: 2rem;
+    margin: .5rem;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+}
+#google{
+    background-color: white;
+}
+#facebook{
+    background-color:#3659a6;
+}
+#apple{
+    background-color: black;
+}
+#xbox{
+    background-color: green;
+}
+#play{
+    background-color:#3659a6;
+}
+#salvar{
+        border: none; 
+        padding-top: 1.5rem;
+        width: 100%;
+}
+#salvar label{
+    color: #243e8bbc;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#salvar input[type="checkbox"]{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: .4rem;
+    background-color: #243e8b2f;
+    appearance: none;
+    cursor: pointer;
+}
+#salvar input[type="checkbox"]:checked {
+    background-color: #548CB4;
+    border: .2rem solid #548CB4;
+}
+#salvar input[type="checkbox"]:checked::before {
+    content: '✔'; /* Marca de verificação */ 
+    display: block; 
+    color: #ffffff; /* Cor da marca */ 
+    text-align: center; 
+    font-size: 1rem; 
+    line-height: 1rem; 
+}
+#arrow{
+    background-color: #548cb431;
+    border-radius: 1.5rem;
+    margin-top: 22rem;
+}
+#arrow img{
+    height: 3rem;
+    margin: 1rem;
+}
+#links{
+    margin-top: 3.5rem;
+}
+#links p{
+    text-align: center;
+    padding: .5rem;
+    
+}
