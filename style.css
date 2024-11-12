@@ -31,3 +31,17 @@ body{
     background-image: linear-gradient(to bottom,  var(--fundo-escuro) 60%,  var(--fundo-claro) 100%  );
 }
 audio { display: none; /* Oculta o player de áudio */ }
+
+@media (max-width: 480px){
+    #img-fundo{
+        background-image: none;
+    }
+    #fundo{
+        height: 93.2em;
+        width: 435em;
+       
+    }
+    #arrow{
+        margin-top: 2em;
+    }
+}

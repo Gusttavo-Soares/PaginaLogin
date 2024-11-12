@@ -1,8 +1,14 @@
-#img-fundo{
+/* #img-fundo{
     height: 100%;
     width: 100%;
 }
 #img-fundo img{
     height: 100%;
     width: 100%;
+} */
+#img-fundo{
+    height: 70.4rem;
+    width: 114.3rem;
+    background-image: url(../imgs/fundo.jpg);
+    background-position: top;
 }
