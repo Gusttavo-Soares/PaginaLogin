@@ -132,9 +132,17 @@ form{
     font-size: 1rem; 
     line-height: 1rem; 
 }
+#depois{
+    transition: background-color 0s ease;
+}
 #arrow{
     background-color: #548cb431;
     border-radius: 1.5rem;
+    
+}
+#depois:hover{
+    background-color: #548cb4;
+    border-radius:1.5rem ;
 }
 #arrow img{
     height: 3rem;
@@ -148,6 +156,9 @@ form{
     padding: .5rem;
     
 }
-/*=======================================480px===================================================*/
 
-/*=======================================1024px===================================================*/
+
+
+
+
+

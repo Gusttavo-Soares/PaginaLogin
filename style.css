@@ -2,14 +2,14 @@
 @import url(./assets/css/main.css);
 @import url(./assets/css/footer.css);
 
-:root{
+:root {
     --fundo-claro: #243e8b;
     --fundo-escuro: #101524;
 
 }
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -20,28 +20,150 @@
 
 }
 
-html{
+html {
     font-size: 62.5%;
 }
-body{
+
+body {
     display: flex;
 }
-#fundo{
-    width: 38.5rem;
-    background-image: linear-gradient(to bottom,  var(--fundo-escuro) 60%,  var(--fundo-claro) 100%  );
-}
-audio { display: none; /* Oculta o player de áudio */ }
 
-@media (max-width: 480px){
-    #img-fundo{
+#fundo {
+    width: 38.5rem;
+    background-image: linear-gradient(to bottom, var(--fundo-escuro) 60%, var(--fundo-claro) 100%);
+}
+
+audio {
+    display: none;
+    /* Oculta o player de áudio */
+}
+
+
+/*=====================================1024px========================================*/
+@media (max-width: 1024px) {
+    #img-fundo {
+        height: 90rem;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #arrow {
+        margin-top: 15rem;
+        margin-bottom: 5rem;
+    }
+}
+
+/*=====================================820px========================================*/
+@media (max-width: 820px) {
+    #img-fundo {
         background-image: none;
     }
-    #fundo{
-        height: 93.2em;
-        width: 435em;
-       
+
+    #fundo {
+        height: 118rem;
+        width: 100%;
     }
-    #arrow{
-        margin-top: 2em;
+
+    footer {
+        display: none;
+    }
+
+    h1 img {
+        height: 35rem;
+    }
+
+    #login {
+        height: 8rem;
+        width: 70rem;
+        font-size: 2.5rem;
+    }
+
+    #divs {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 5rem;
+    }
+
+    #qr {
+        padding-top: 3.4rem;
+    }
+
+    #login hr {
+        width: 16rem;
+        margin-right: 37rem;
+    }
+
+    #selection {
+        height: 5rem;
+    }
+
+    #arrow {
+        margin-top: 2rem;
+    }
+
+    .sem-borda input::placeholder {
+        font-size: 2rem;
+    }
+
+    .sem-borda input {
+        height: 8rem;
+        width: 50rem;
+    }
+
+    #img {
+        margin: 5rem 0 2rem 5rem;
+    }
+
+    #img div {
+        width: 12rem;
+        border-radius: .6rem;
+    }
+
+    #img div img {
+        height: 5rem;
+        margin: .5rem;
+    }
+
+    #salvar input[type="checkbox"] {
+        width: 3rem;
+        height: 3rem;
+        border-radius: .4rem;
+        background-color: #243e8b95;
+    }
+
+    #salvar label {
+        color: #243e8bbc;
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    #salvar input[type="checkbox"]:checked::before {
+        line-height: 3rem;
+    }
+
+    #arrow img {
+        height: 6rem;
+        margin: 1rem;
+    }
+
+    #links p {
+        font-size: 2rem;
+    }
+}
+
+/*=====================================480px========================================*/
+@media (max-width: 480px) {
+    #img-fundo {
+        background-image: none;
+    }
+
+    #fundo {
+        height: 120rem;
+        width: 100%;
+        /* Ajustar para 100% para se adaptar ao tamanho da tela */
+    }
+
+    #arrow {
+        margin-top: 2rem;
     }
 }
